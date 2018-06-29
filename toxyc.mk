@@ -21,9 +21,9 @@ $(call inherit-product, device/oneplus/bacon/bacon.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_bacon
+PRODUCT_NAME := toxyc_bacon
 PRODUCT_DEVICE := bacon
-PRODUCT_BRAND := oneplus
+PRODUCT_BRAND := Oneplus
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
 
