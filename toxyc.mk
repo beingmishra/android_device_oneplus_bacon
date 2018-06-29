@@ -18,8 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from bacon device
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ToxycOS stuff.
+$(call inherit-product, vendor/toxyc/config/common_full_phone.mk)
 
 PRODUCT_NAME := toxyc_bacon
 PRODUCT_DEVICE := bacon
